@@ -2,7 +2,7 @@ name: Build
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "cllang-macos-ci" ]
   pull_request:
     branches: [ "main" ]
 
