@@ -13,7 +13,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        token: [softokn]  # softhsm still fails a few tests on macOS
+        #token: [softokn]  # softhsm still fails a few tests on macOS
+        token: [softokn, softhsm]
     steps:
     - name: Install Dependencies
       run: |
